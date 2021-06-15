@@ -93,6 +93,22 @@
     border-radius: 50px;
 }
 
+.copyright{
+    background-color: #2b354f;
+    padding: 23px 0;
+}
+
+.copyright p{
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.copyright p a{
+    color: #1abc9c;
+    text-decoration: none;
+}
+
 @media(max-width: 500px) {
 
     .container{
@@ -137,5 +153,13 @@
     .left-col h1{
         font-size: 50px;
         line-height: 80px;
+    }
+
+    .copyright {
+        padding: .5rem 1rem;
+    }
+
+    .copyright p{
+        font-size: 14px;
     }
 }
